@@ -28,8 +28,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
+
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+
+<script src="js/booking.js"></script>
+
+
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -329,7 +335,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Book Now" class="button" />
+																	<input type="submit" onclick="vote()" name="submit" value="Book Now" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -461,7 +467,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Book Now" class="button" />
+																	<input type="submit" name="submit" value="Book Now 3" onclick="purchaseProduct()" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -694,7 +700,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Book Now" class="button" />
+																	<input type="submit" name="submit" value="Book Now 2"  class="button" />
 																</fieldset>
 															</form>
 														</div>
