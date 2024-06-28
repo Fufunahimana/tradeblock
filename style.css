@@ -850,7 +850,7 @@ i.fa.fa-arrow-right {
     line-height: 32px;
     border-radius: 50%;
 }
-a.w3_agile_facebook:hover{
+a.w3_agile_faceBook Now:hover{
 	background:#3b5998;
 	 border: 1px solid #3b5998;
 }
@@ -2214,15 +2214,15 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
     transform: rotateX(0);
 }
 
-/*-- facebook --*/
+/*-- faceBook Now --*/
 /*-- w3layouts --*/
-.icon-cube.agile_facebook::before,
-.icon-cube.agile_facebook::after {
+.icon-cube.agile_faceBook Now::before,
+.icon-cube.agile_faceBook Now::after {
 	content: "\f09a";
     color: #3b5998;
 }
 
-.icon-cube.agile_facebook::after {
+.icon-cube.agile_faceBook Now::after {
 	background-color:#3b5998;
 	color:#fff;
 }
