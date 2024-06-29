@@ -26,7 +26,6 @@
    margin-top: 30px;
    margin-left: 250px;
    border-radius: 10px;
-   filter: brightness(1.5);
 }
 
 .skdslider ul.slide-navs {
@@ -57,10 +56,13 @@
    width: 100%;
    display: inline-block;
    text-align:center;
+   backdrop-filter: blur(10px);
+   border: 1px solid white;
 }
 .skdslider .slide-desc > h3 {
    color: #ffffff;
    font-size: 50px;
+   font-weight: bold;
    color: #222;
    margin-bottom: 20px;
    padding: 10px;
@@ -70,7 +72,7 @@
    font-weight:600;
    letter-spacing: 2px;
    text-transform:uppercase;
-   -webkit-text-stroke: 2px white;
+   -webkit-text-stroke: 2px orange;
    text-shadow:  0 5px 10px rgba(0,0,0,0.10);
    
 

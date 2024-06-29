@@ -273,10 +273,10 @@ ul.multi-column-dropdown h6 {
 }
 .nav > li > a:hover, .nav > li > a:focus {
     background: none;
-	color:blue !important;
+	color:#fe9126 !important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: blue;
+    color: #fe9126;
 }
 .multi-gd-img img {
     width: 100%;
